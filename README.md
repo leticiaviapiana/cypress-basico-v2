@@ -1,29 +1,31 @@
-# Testes automatizados com Cypress - Básico
+# Cypress Básico v2
 
-👋 Seja bem-vindo(a)!
+Exemplo de projeto para o curso básico de Testes Automatizados com Cypress da Talking About Testing
 
-É muito bom tê-lo(a) aqui. Tenho certeza que você vai adorar este curso. ❤️
+## Pré-requisitos
 
-## O que você vai aprender
+É necessário que você tenha o Node.js e o npm instalados para rodar este projeto.
+Eu utilizei as versões 'v.16.15.0' e '8.5.5' do Node.js e do npm, respectivamente.
 
-Durante o curso de testes automatizados com Cypress (básico), você vai aprender:
+## Instalação
 
-- Como configurar um projeto Cypress do zero
-- Como visitar páginas locais e remotas
-- Como lidar com os elementos mais comuns encontrados em aplicações web
-- Como testar _upload_ de arquivos
-- Como realizar as mais diversas verificações de resultados esperados
-- Como criar comandos customizados
-- Como lidar com links que abrem em outra aba do navegador
-- Como rodar testes simulando as dimensões de um dispositivo móvel
-- Como resolver os mesmos problemas de diferentes formas, conhecendo a [API do Cypress](https://docs.cypress.io/api/table-of-contents)
-- Como executar os testes em um _pipeline_ de integração contínua sempre que mudanças ocorrerem no código da aplicação (ou dos testes)
-- Como criar uma documentação mínima para seu projeto de testes automatizados
+Rodar 'npm install' (ou 'npm i' se preferir) para instalar todas as dependências.
 
-## Vamos começar?
+## Tests
 
-Vá para a seção [estrutura do curso](./lessons/_course-structure_.md).
+Neste projeto é possível executar os testes simulando um viewport desktop ou mobile.
 
-___
+## Desktop
 
-Este é mais um curso da [**Escola Talking About Testing**](https://udemy.com/user/walmyr).
+Rodar 'npm test' (ou 'npm t' que é a versão curta - se preferir) para executar os testes no modo headless (modo desktop).
+Ou rode 'npm run cy:open' para executar os testes em modo interativo (modo desktop).
+
+## Mobile
+Rodar 'npm run test:mobile' para executar os testes no modo headless (modo mobile).
+Ou rode 'npm run cy:open:mobile' para executar os testes em modo interativo (modo mobile).
+
+-----
+
+Este projeto feito a partir de aulas do curso de cypress básico do Walmyr através da plataforma Udemy.
+
+Com amor, carinho e dedicação, Letícia Viapiana. 🚀❤️ [https://www.linkedin.com/in/leticiaviapiana/]
