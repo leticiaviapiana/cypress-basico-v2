@@ -159,14 +159,6 @@ describe('Central de Atendimento ao Cliente TAT', function(){
         })
     })
 
-    it('treinando com um arquivo pessoal salvo no computador', function(){
-        cy.get('input[type="file"]')
-        .selectFile('C:/Users/Leticia Viapiana/Documents/meus documentos/CV LETÍCIA QATESTE.pdf')
-        .should(function($input){   // recebeu uma função de callback //
-            expect($input[0].files[0].name).to.equal('CV LETÍCIA QATESTE.pdf')
-        })
-    })
-
     // # Exercício extra 01 # //
     it('seleciona um arquivo simulando um drag-and-drop', function(){
         cy.get('input[type="file"]')
@@ -223,5 +215,5 @@ describe('Central de Atendimento ao Cliente TAT', function(){
     // # Exercício sobre integração contínua (CI) com GitHub Actions # //
     // # Exercício 1 # //
     // Foi criado um diretório chamado .github/ e dentro dele criado um sub-diretório chamado workflows/ > ".github/workflows/" //
-    
+
 })
